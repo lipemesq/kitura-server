@@ -1,0 +1,3 @@
+.build/							usr/src/aulas
+terraform/scripts/install.sh	usr/src/aulas
+terraform/scripts/start.sh		usr/src/aulas
