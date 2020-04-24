@@ -29,7 +29,7 @@ public class App {
         // Endpoints
         initializeHealthRoutes(app: self)
         initializeGetRoutes(app: self)
-        initializeEntryRoutes(app: self)
+        initializeNoteEntryRoutes(app: self)
         initializeBasicAuth(app: self)
         initializeUserRoutes(app: self)
         KituraOpenAPI.addEndpoints(to: router)

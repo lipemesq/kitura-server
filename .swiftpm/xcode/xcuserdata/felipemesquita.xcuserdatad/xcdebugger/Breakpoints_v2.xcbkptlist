@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "86650AC9-4B92-47EB-BF2D-D8AC8462F922"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../Library/Developer/Xcode/DerivedData/aulas-fwubhjrmcuezatbegyhzytqqqfaz/SourcePackages/checkouts/Swift-Kuery-ORM/Sources/SwiftKueryORM/Model.swift"
@@ -24,7 +24,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "A78782E1-4430-4715-823B-7B5819435878"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../Library/Developer/Xcode/DerivedData/aulas-fwubhjrmcuezatbegyhzytqqqfaz/SourcePackages/checkouts/Swift-Kuery-ORM/Sources/SwiftKueryORM/Model.swift"
@@ -40,7 +40,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "578E2C96-1C49-4332-BD6F-660B7A4B78C3"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../../Library/Developer/Xcode/DerivedData/aulas-fwubhjrmcuezatbegyhzytqqqfaz/SourcePackages/checkouts/Swift-Kuery-ORM/Sources/SwiftKueryORM/Model.swift"

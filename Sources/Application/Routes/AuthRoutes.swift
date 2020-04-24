@@ -13,10 +13,10 @@ func initializeBasicAuth(app: App) {
     let basicCredentials = CredentialsHTTPBasic(verifyPassword: {
         username, password, callback in
         
-        UserAuth.find(id: username){ UserAuth, error in
-            if let user = UserAuth {
+        UserAuth.find(id: username) { userAuth, error in
+            if let user = userAuth {
                 if password == user.password {
-                    callback(UserProfile(id:username, displayName: username, provider: "HTTPBasic"))
+                    callback(UserProfile(id: username, displayName: username, provider: "HTTPBasic"))
                 } else {
                     callback(nil)
                 }

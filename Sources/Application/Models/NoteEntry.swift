@@ -14,8 +14,8 @@ struct NoteEntryParams : QueryParams {
 }
 
 struct NoteEntry : Model {
-    var id : String?
-    var text : String
+    var id    : String?
+    var text  : String
     var label : String
-    var date : Date
+    var date  : Date
 }
