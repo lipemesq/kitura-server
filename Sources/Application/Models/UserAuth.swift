@@ -9,7 +9,7 @@ import Foundation
 import SwiftKueryORM
 import CredentialsHTTP
 
-public struct UserAuth:Model{
+public struct UserAuth : Model{
     public var id : String
     public let password : String
 }

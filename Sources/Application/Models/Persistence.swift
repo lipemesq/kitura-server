@@ -53,5 +53,19 @@ class Persistence {
                 Log.error(String(describing: error))
             }
         }
+        
+        // Reflections
+        do {
+            try Reflection.createTableSync()
+        }
+        catch let error {
+            if let requestError = error as? RequestError,
+                requestError.rawValue == RequestError.ormQueryError.rawValue
+            {
+                Log.info("\(Reflection.tableName) already exists")
+            } else {
+                Log.error(String(describing: error))
+            }
+        }
     }
 }
